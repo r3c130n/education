@@ -1,0 +1,8 @@
+.idea
+/upload/*
+!/bitrix
+/bitrix/*.*
+/bitrix/*/*
+!/bitrix/components/edu
+!/bitrix/templates/edu
+!/bitrix/php_interface/init.php

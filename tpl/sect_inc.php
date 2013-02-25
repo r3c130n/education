@@ -1,0 +1,32 @@
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.calendar",
+	"compact",
+	Array(
+		"FILTER_NAME" => "",
+		"LIST_URL" => "",
+		"AJAX_MODE" => "N",
+		"IBLOCK_TYPE" => "news",
+		"IBLOCK_ID" => "1",
+		"MONTH_VAR_NAME" => "month",
+		"YEAR_VAR_NAME" => "year",
+		"WEEK_START" => "1",
+		"DATE_FIELD" => "DATE_ACTIVE_FROM",
+		"TYPE" => "EVENTS",
+		"SHOW_YEAR" => "Y",
+		"SHOW_TIME" => "Y",
+		"TITLE_LEN" => "0",
+		"SET_TITLE" => "Y",
+		"SHOW_CURRENT_DATE" => "Y",
+		"SHOW_MONTH_LIST" => "Y",
+		"NEWS_COUNT" => "0",
+		"DETAIL_URL" => "",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "36000000",
+		"CACHE_NOTES" => "",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_ADDITIONAL" => ""
+	),
+false
+);?>
