@@ -1,0 +1,7 @@
+ul.edu_horiz_list li {
+	display: inline;
+}
+ul.edu_horiz_list li.active a {
+	color: #000;
+	text-decoration: none;
+}
